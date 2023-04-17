@@ -19,7 +19,7 @@ public class jsonFile {
     }
     
     public jsonFile(List<String> data) {
-        // Initialize the JsonFile with a list of strings
+        // Initialize the JsonFile with a list of string
         this.data = data;
     }
     
