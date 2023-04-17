@@ -1,8 +1,8 @@
 package Quarta_Feira_LEI_GrupoF.scheduleManagement;
 
 /**
- * Hello world!
- *
+ * Hell world!
+ 
  */
 public class App 
 {		
