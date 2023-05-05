@@ -41,7 +41,7 @@ public class csvFile {
 	public void saveFile(String newFileName) {
 		 CSVWriter writer;
 		try {
-			writer = (CSVWriter) new CSVWriterBuilder(new FileWriter("yourfile.csv")).withSeparator('\t').build();
+			writer = (CSVWriter) new CSVWriterBuilder(new FileWriter("yourfile.csv")).withSeparator(' ').build();
 			 // feed in your array (or convert your data to an array)
 			for (String[] vector: this.ficheiro) {
 				writer.writeNext(vector);
